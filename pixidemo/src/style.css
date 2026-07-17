@@ -1,0 +1,40 @@
+/* ───────────── Reset & nền trang ───────────── */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #0d0d1a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+  color: #fff;
+  overflow: hidden;
+}
+
+h1 {
+  font-size: 1.4rem;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #a78bfa;
+  margin-bottom: 12px;
+  text-shadow: 0 0 12px #7c3aed;
+}
+
+#hint {
+  font-size: 0.78rem;
+  color: #6b7280;
+  margin-top: 10px;
+  letter-spacing: 1px;
+}
+
+/* Canvas của PixiJS sẽ được gắn vào #game-container */
+#game-container canvas {
+  border-radius: 12px;
+  box-shadow: 0 0 40px #7c3aed88, 0 0 80px #1e1b4b55;
+}
